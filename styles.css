@@ -173,3 +173,24 @@ ul {
         color: #616161;
         font-size: 18px;
     }
+
+    .testimonialsection {
+        background-color: #e5e7eb;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonial {
+        font-size: 36px;
+        font-weight: 100;
+        font-style: italic;
+        padding: 100px 75px 10px 300px;
+    }
+
+    .testimonialwriter {
+        display: flex;
+        font-size: 25px;
+        padding: 0px 40px 100px 600px;
+    }
