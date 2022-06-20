@@ -63,10 +63,11 @@ ul {
 .topcontainleft {
     flex: 1 0 auto;
     width: 40%;
+    height: 50%;
     flex-wrap: wrap;
     order: 1;
     padding: 20px;
-    margin: 100px 50px;
+    margin: 100px 50px 50px 50px;
 }
 
 .eyecatcher {
@@ -77,17 +78,19 @@ ul {
 .topcontainright {
     flex: 1 0 auto;
     width: 60%;
+    height: 50%;
     flex-wrap: wrap;
     order: 2;   
     padding: 0px;
-    margin: 50px 50px 100px 50px;
+    margin: 50px 50px 50px 50px;
 }
 
 .beloweyecatch {
     color: #e5e7eb;
-    font-weight: 300;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 #signup {
@@ -117,8 +120,8 @@ ul {
     }
 
     .landingimage {
-        max-height: 90%;
-        max-width: 80%;
+        max-height: 50%;
+        max-width: 50%;
         padding: 0px;
         margin: 0px;
     }
@@ -148,7 +151,10 @@ ul {
     }
 
     .box {
+        display: flex;
         vertical-align: middle;
+        justify-content: center;
+        align-items: center;
         border-style: solid;
         border-width: 5px;
         border-radius: 20px;
@@ -158,6 +164,15 @@ ul {
         height: 200px;
     }
 
+    .boximage100 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .boximage95 {
+        width: 90%;
+        height: 90%;
+    }
 
     .secondcontainfooter {
         display: flex;
